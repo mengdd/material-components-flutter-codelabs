@@ -56,7 +56,18 @@ class _LoginPageState extends State<LoginPage> {
               ),
               obscureText: true,
             ),
-            // TODO: Add button bar (101)
+            ButtonBar(
+              children: <Widget>[
+                FlatButton(
+                  child: Text('CANCEL'),
+                  onPressed: () {},
+                ),
+                RaisedButton(
+                  child: Text('NEXT'),
+                  onPressed: () {},
+                ),
+              ],
+            ),
           ],
         ),
       ),
