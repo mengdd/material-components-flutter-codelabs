@@ -73,6 +73,7 @@ class _LoginPageState extends State<LoginPage> {
                   },
                 ),
                 RaisedButton(
+                  elevation: 8.0,
                   child: Text('NEXT'),
                   onPressed: () {
                     Navigator.pop(context);
